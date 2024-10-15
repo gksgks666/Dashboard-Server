@@ -9,9 +9,9 @@ const {
 } = require("../controllers/userauth");
 
 router.post("/login", login);
-router.post("/logout", logout);
+router.delete("/logout", logout);
 router.post("/register", register);
-router.post("/refresh", refresh);
+router.put("/refresh", refresh);
 router.get("/protected", protected);
 
 module.exports = router;

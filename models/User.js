@@ -53,8 +53,6 @@ userSchema.pre("save", function (next) {
 // 비밀번호가 암호화되어 있기때문에 bcrypt 라이브러리를 사용하여 비밀번호 일치 체크
 userSchema.methods.comparePassword = async function (plainPassword) {
   try {
-    const user = this;
-    console.log("user", user);
     const isMatch = await bcrypt.compare(plainPassword, this.password);
     return isMatch;
   } catch (error) {

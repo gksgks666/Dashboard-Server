@@ -7,9 +7,9 @@ const {
   saveCustomerAccount,
 } = require("../controllers/management");
 
-router.get("/getuserlist", getUserList);
-router.post("/rolechange", saveRole);
-router.get("/getcustomerlist", getCustomerList);
-router.post("/customeraccountchange", saveCustomerAccount);
+router.get("/userlist", getUserList);
+router.post("/role", saveRole);
+router.get("/customerlist", getCustomerList);
+router.post("/customeraccount", saveCustomerAccount);
 
 module.exports = router;

@@ -9,7 +9,7 @@ router.use("/api", (req, res, next) => {
       "/userauth/login",
       "/userauth/register",
       "/userauth/logout",
-      "/errorlog/errorsave",
+      "/errorlog/storage",
     ].includes(req.path)
   ) {
     return next();

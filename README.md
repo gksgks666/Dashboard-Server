@@ -1,6 +1,6 @@
 # Node.js + MongoDB로 제작한 Dashboard
 
-Node.js + MongoDB 를 사용한 Express 기반의 RESTful API 서버로 다양한 management가 가능한 관리자 페이지 및 Dashboard입니다.
+Node.js + MongoDB를 사용한 Express 기반의 서버로 다양한 management가 가능한 관리자 페이지 및 Dashboard입니다.
 
 <br/>
 
